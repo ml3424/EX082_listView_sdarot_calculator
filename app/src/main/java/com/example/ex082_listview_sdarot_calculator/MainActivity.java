@@ -68,11 +68,13 @@ public class MainActivity extends AppCompatActivity {
         if(!isValidInput(S_a1_input))
         {
             Toast t = Toast.makeText(this, "Invalid a1!", Toast.LENGTH_SHORT);
+            t.show();
             return;
         }
         else if(!isValidInput(S_dorq_input))
         {
             Toast t = Toast.makeText(this, "Invalid d/q!", Toast.LENGTH_SHORT);
+            t.show();
             return;
         }
         a1_input = Double.valueOf(S_a1_input);;
