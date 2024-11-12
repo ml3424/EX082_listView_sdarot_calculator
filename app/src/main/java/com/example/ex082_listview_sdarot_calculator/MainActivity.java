@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         f_intent = new Intent(MainActivity.this, CalcActivity.class);
         f_intent.putExtra("a1_input", a1_input);
         f_intent.putExtra("dorq_input", dorq_input);
+        f_intent.putExtra("isHashbonit", isHashbonit);
         startActivity(f_intent);
 
     }
