@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tVdq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalcActivity">
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="156dp"
+        android:layout_height="674dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="a1 = "
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="d = "
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="n ="
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Sn ="
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/tVa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tVdq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/tVa1" />
+
+    <TextView
+        android:id="@+id/tVn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/tVdq2" />
+
+    <TextView
+        android:id="@+id/tVSn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toBottomOf="@+id/tVn" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="111dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="30dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listV"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
