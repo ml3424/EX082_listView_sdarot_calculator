@@ -101,5 +101,6 @@ public class CalcActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void back_to_main_activity(View view) {
         finish();
+
     }
 }
